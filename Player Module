@@ -1,0 +1,5 @@
+import tkinter as tk
+from random import choice
+import csv
+import pickle
+
