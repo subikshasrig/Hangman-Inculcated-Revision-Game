@@ -47,3 +47,9 @@ Admin module-
 1) AdPhy(), AdChem(), AdEng()- Appends record with values inputted by the values into the data file.
 2) RePhy(), ReChem(), ReEng()- Removes record from the data file with a serial number inputted by the user.
 3) VPhy(), VChem(), VEng()- Displays binary file in IDLE and CSV files in MS Excel.
+
+Bibliography
+1. Python GUI Programming With Tkinter – Real Python https://realpython.com/python-gui-tkinter/
+2. Tabulate function https://pypi.org/project/tabulate/
+3. OS Start file function https://python101.pythonlibrary.org/chapter16_os.html#:~:text=startfile()-,The%20os.,it%20opens%20in%20Adobe%20Reader.
+4. W3Schools and Stack Overflow for miscellaneous functions and queries
