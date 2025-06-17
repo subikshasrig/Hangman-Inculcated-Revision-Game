@@ -17,5 +17,32 @@ def AdPhy():
         w.writerow(l)
     f.close()
 
+def RePhy():
+    f=open('Physics.csv', 'r', newline='')
+    nf=open('nPhysics.csv','w', newline='')
+    r=csv.DictReader(f)
+    w=csv.writer(nf)
+    c=int(input('Enter character number to delete: '))
+    no=0
+    line=0
+    w.writerow(['Serial No.', 'Hint', 'Answer'])
+    for i in r:
+        if i['Serial No.']==str(c):
+            pass
+        else:
+            no+=1
+            i['Serial No.']=no
+            l=[i['Serial No.'], i['Hint'], i['Answer']]
+            w.writerow(l)
+    f.close()
+    nf.close()
+    os.remove('Physics.csv')
+    os.rename('nPhysics.csv', 'Physics.csv')
+
+def VPhy():
+    f=open('Physics.csv')
+    os.startfile('Physics.csv')
+    f.close()
+
 
     
