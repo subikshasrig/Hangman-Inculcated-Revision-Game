@@ -1,1 +1,7 @@
 # hangman-inculcated-revision-game
+
+My project is a revision game that uses the format of hangman. It is divided into three subjects: Physics, Chemistry, and English. After logging in as a player by inputting a username, the player can choose to answer questions from any subject. The basic functioning of the game is that of hangman, where for every wrong answer, the stick figure develops. For every correct answer, the blank spaces get filled. After getting the correct answer, or after 8 wrong inputs, the end screen is displayed. For every correct answer, a point is added in the user’s record.
+
+Besides the player login, there is also the option of logging in as admin to edit the set of questions or to view the files. To add or delete records, the values are entered in IDLE by the admin. To delete, the serial number of the question is inputted. For CSV files, the view option shows the excel sheet format, and for the binary file, it displays in IDLE. 
+
+There is an existing leaderboard named LEADERBOARD that uses SQL connectivity with Python to correct the data of the scores of the players logged in and display the high scoring members. When the player enters the username to log in, it is stored in a variable. There is a list that stores the scores of the player for each game. Once the Quit button is clicked, the data from the list gets stored in the database along with the username of the player and their total score. When Show Leaderboard button is clicked, the database is displayed in IDLE with descending order of total score.
