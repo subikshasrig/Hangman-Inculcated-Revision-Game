@@ -1,0 +1,13 @@
+import pickle
+f=open('characters.dat','wb')
+pickle.dump([1, 'M HAMEL', 'Was proud of his language and aimed to teach it to the next generation'],f)
+pickle.dump([2, 'FRANZ', 'Used to procrastinate his studies by playing by the river or searching for bird eggs'],f)
+pickle.dump([3, 'HAUSER', 'Cried at the last lesson as he recited the letter along with the babies'],f)
+pickle.dump([4, 'SAHEB', "His full name ironically meant 'lord of the universe'"],f)
+pickle.dump([5, 'MUKESH', 'Dared to dream to be a mechanic despite his family business'],f)
+pickle.dump([6, 'SAVITA', 'A young girl who worked to make bangles'],f)
+pickle.dump([7, 'WILLIAM DOUGLAS', 'Pushed himself to overcome his fear of being in water'],f)
+pickle.dump([8, 'CHARLEY', 'Ordinary man who stumbled into the year 1894'],f)
+pickle.dump([9, 'LOUISA', 'Helped her husband to search for the third level'],f)
+pickle.dump([10, 'THE TIGER KING', 'The nickname of the Jung Jung Bahadur'],f)
+f.close()
