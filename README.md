@@ -5,3 +5,12 @@ My project is a revision game that uses the format of hangman. It is divided int
 Besides the player login, there is also the option of logging in as admin to edit the set of questions or to view the files. To add or delete records, the values are entered in IDLE by the admin. To delete, the serial number of the question is inputted. For CSV files, the view option shows the excel sheet format, and for the binary file, it displays in IDLE. 
 
 There is an existing leaderboard named LEADERBOARD that uses SQL connectivity with Python to correct the data of the scores of the players logged in and display the high scoring members. When the player enters the username to log in, it is stored in a variable. There is a list that stores the scores of the player for each game. Once the Quit button is clicked, the data from the list gets stored in the database along with the username of the player and their total score. When Show Leaderboard button is clicked, the database is displayed in IDLE with descending order of total score.
+
+Packages imported-
+-> tkinter: Used for the configuration and structure of the game i.e. formats how the game is displayed.
+-> csv: Used to work with csv files.
+-> pickle: Used to work with binary files.
+-> os: Used to remove and rename binary file, as well as view the csv files in Excel format.
+-> tabulate: Used to display the leaderboard in grid format.
+-> random: Used to select questions from the data files randomly.
+-> mysql.connector: Used to connect SQL with Python.
