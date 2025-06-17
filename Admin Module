@@ -1,0 +1,21 @@
+import os
+import pickle
+import csv
+
+def AdPhy():
+    f=open('Physics.csv', 'a', newline='')
+    w=csv.writer(f)
+    n=eval(input('Enter the serial number of records to append: '))
+    for i in range(n):
+        sno=eval(input('Enter the serial number of record: '))
+        print()
+        hint=input('Enter the hint for the question: ')
+        print()
+        ans=input('Enter the answer for the given question: ')
+        print()
+        l=[sno,hint,ans]
+        w.writerow(l)
+    f.close()
+
+
+    
